@@ -12,8 +12,10 @@
     border-radius: 25px;
 }
 
-.font {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 2px;
+    font-size: 18px;
 }
 
 .tombol {
@@ -21,6 +23,8 @@
     height: 40px;
     width: 150px;
     border-radius: 10px;
+    font-size: 16px;
+    padding: 0 20px;
 }
 
 .tombollebar {
@@ -28,5 +32,38 @@
     height: 40px;
     width: 280px;
     border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
 
+input {
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 7px;
+
+}
+
+.judul {
+    font-weight: bold;
+}
+
+.js {
+    margin-top: 10px;
+}
+
+.form {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.rata {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
 }
