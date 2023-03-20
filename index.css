@@ -64,6 +64,7 @@ input {
     text-align: justify;
 }
 
-ul {
-    list-style-type: none;
+#deskripsi2 li {
+    list-style: none;
+    margin-bottom: 10px;
 }
