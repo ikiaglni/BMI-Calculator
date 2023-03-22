@@ -25,7 +25,7 @@ function hitungBMI() {
       document.getElementById("keterangan").innerHTML =
         "Anda berada dalam <b>kategori underweight atau kekurangan Berat Badan.</b>  Cara terbaik untuk menaikkan berat badan adalah dengan mengkonsumsi makanan yang mengandung banyak nutrisi dan makan yang teratur dan cukup. <br> Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk menaikkan berat badan hingga batas normal.";
       document.getElementById("keterangan2").innerHTML =
-        "Beberapa penyakit yang berasal dari underweight <ul><li>Malnutrisi</li><li>Turunnya Fungsi Kekebalan Tubuh</li><li>Osteoporosis</li><li>Infertilitas</li></ul>";
+        "Beberapa penyakit yang berasal dari underweight <ul><li>Kulit keriput hingga penuaan dini</li><li>Infeksi saluran napas atas, kulit, atau saluran kemih</li><li>Osteoporosis</li><li>Fatigue yang susah diatasi</li></ul>";
     } else if (hasil >= 18.5 && hasil <= 24.9) {
       //normal
       document.getElementById("keteranganStatus").innerHTML = "Normal (Ideal)";
@@ -44,7 +44,7 @@ function hitungBMI() {
       document.getElementById("keterangan").innerHTML =
         "Anda berada dalam <b>kategori overweight atau kelebihan berat badan.</b>  Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalor makanan yang dikonsumsi dan berolahraga. <br> Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk menurunkan berat badan hingga batas normal.";
       document.getElementById("keterangan2").innerHTML =
-        "Beberapa penyakit yang berasal dari overweight <ul><li>Berkurangnya kualitas hidup</li><li>Tekanan darah tinggi</li><li>Sakit Jantung</li><li>Osteoarthritis</li></ul>";
+        "Beberapa penyakit yang berasal dari overweight <ul><li>Diabetes tipe 2</li><li>Osteoarthritis</li><li>Sulit bernapas</li><li>Osteoarthritis</li></ul>";
     } else if (hasil > 30.0) {
       //obesitas
       document.getElementById("keteranganStatus").innerHTML =
@@ -55,7 +55,7 @@ function hitungBMI() {
       document.getElementById("keterangan").innerHTML =
         "Anda berada dalam <b>kategori kegemukan atau obesitas.</b> Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalor makanan yang dikonsumsi dan berolahraga. <br> Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk menurunkan berat badan hingga batas normal.";
       document.getElementById("keterangan2").innerHTML =
-        "Beberapa penyakit yang berasal dari kegemukan <ul><li>Diabetes</li><li>Hipertensi</li><li>Sakit Jantung</li><li>Osteoarthritis</li></ul>";
+        "Beberapa penyakit yang berasal dari kegemukan <ul><li>Sleep apnea</li><li>Diabetes</li><li>Penyakit jantung</li><li>Osteoarthritis</li></ul>";
     }
   }
 }
